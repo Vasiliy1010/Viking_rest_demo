@@ -1,0 +1,14 @@
+package ru.mephi.vikingdemo.model;
+
+import java.util.List;
+
+public record VikingEntity(
+        Integer id,
+        String name,
+        int age,
+        int heightCm,
+        HairColor hairColor,
+        BeardStyle beardStyle,
+        List<EquipmentItem> equipment
+) {
+}
